@@ -1,0 +1,13 @@
+# LectureLens dependencies
+# Install with: pip install -r requirements.txt
+
+yt-dlp            # YouTube downloading
+opencv-python     # Frame extraction
+scikit-image      # SSIM computation
+imagehash         # Perceptual hashing
+Pillow            # Image processing + PDF export
+paddlepaddle      # PaddleOCR backend (CPU)
+paddleocr         # Primary OCR engine
+pytesseract       # Fallback OCR (also install Tesseract binary)
+numpy             # Array operations
+tqdm              # Progress bars
